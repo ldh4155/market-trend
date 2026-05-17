@@ -115,19 +115,6 @@ NAVER_DATALAB_CLIENT_ID=<네이버_클라이언트_ID>
 NAVER_DATALAB_CLIENT_SECRET=<네이버_클라이언트_시크릿>
 ```
 
-### 실행
-
-```bash
-# 백엔드 (http://localhost:8000)
-cd be
-uvicorn app.main:app --reload
-
-# 프론트엔드 (http://localhost:5173)
-cd fe
-npm run dev
-```
-
-프론트엔드 개발 서버는 `/api/*` 요청을 백엔드(`http://localhost:8000`)로 자동 프록시합니다.
 
 ## API 엔드포인트
 
