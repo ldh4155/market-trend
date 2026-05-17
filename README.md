@@ -79,6 +79,7 @@ market-trend/
 - Python 3.x
 - Node.js 18+
 - 네이버 DataLab API 키 ([발급 링크](https://developers.naver.com/apps/#/list))
+- 한국투자증권 open-api 신청 후 app-key, app-secret 발급
 
 ### 백엔드 설정
 
@@ -113,6 +114,9 @@ APP_NAME=Market Trend API
 DEBUG=true
 NAVER_DATALAB_CLIENT_ID=<네이버_클라이언트_ID>
 NAVER_DATALAB_CLIENT_SECRET=<네이버_클라이언트_시크릿>
+
+KIS_APP_KEY=<한국투자증권 App-Key>
+KIS_APP_SECRET=<한국투자증권 App-Secret>
 ```
 
 
