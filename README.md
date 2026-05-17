@@ -131,9 +131,13 @@ npm run dev
 
 ## API 엔드포인트
 
+모든 서버 API는 `/api/*` 경로로 제공됩니다.
+
 | 메서드 | 경로 | 설명 |
 |--------|------|------|
-| GET | `/health` | 서버 상태 확인 |
-| GET | `/trends/sectors/list` | 전체 섹터 목록 조회 |
-| POST | `/trends/sectors` | 섹터별 검색 트렌드 조회 |
-| POST | `/trends/companies` | 종목별 검색 트렌드 조회 |
+| GET | `/api/health` | 서버 상태 확인 |
+| GET | `/api/trends/sectors/list` | 전체 섹터 목록 조회 |
+| POST | `/api/trends/sectors` | 섹터별 검색 트렌드 조회 |
+| POST | `/api/trends/companies` | 종목별 검색 트렌드 조회 |
+| GET | `/api/new-highs/weekly` | 주간 신고가 교집합 조회 |
+| GET | `/api/new-highs/30d` | 최근 30일 신고가 반복 종목 조회 |
